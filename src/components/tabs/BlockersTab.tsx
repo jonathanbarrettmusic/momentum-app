@@ -11,7 +11,7 @@ const SEV_COLORS: Record<number, string> = {
 const CATEGORIES = ['Focus', 'Energy', 'Clarity', 'Confidence', 'External', 'Health', 'Other'];
 
 export default function BlockersTab() {
-  const { activeBlockers, blockerScores, addActiveBlocker, resolveBlocker, removeBlocker, saveBlockerScores, todayBlockerScores } = useStore();
+  const { activeBlockers, addActiveBlocker, resolveBlocker, removeBlocker, saveBlockerScores, todayBlockerScores } = useStore();
 
   const todayScores = todayBlockerScores();
   const [scores, setScores] = useState({

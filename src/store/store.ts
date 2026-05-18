@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { uid, today } from '../lib/utils';
-import type { Habit, TimeBlock, Goal, Milestone, ActiveBlocker, BlockerScores, BlockType, GoalCategory, BlockerSeverity } from '../types';
+import type { Habit, TimeBlock, Goal, ActiveBlocker, BlockerScores, BlockType, GoalCategory, BlockerSeverity } from '../types';
 
 interface Store {
   // Data

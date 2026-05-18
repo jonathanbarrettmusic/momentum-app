@@ -45,7 +45,6 @@ export function fmtTime(t: string): string {
 // ── Score helpers ────────────────────────────────────────────────────────────
 
 export function habitStreak(h: Habit): number {
-  const t = today();
   let streak = 0;
   const d = new Date();
   while (true) {
